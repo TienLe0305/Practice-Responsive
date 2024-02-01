@@ -14,21 +14,21 @@ body {
 }
 
 /* Mobile : width < 740px */
-@media screen and (max-width: 739px) {
+@media screen and (max-width: 46.1875em) {
   .mobile {
     display: block;
   }
 }
 
 /* Tablet : width >= 740px and width < 1024px */
-@media screen and (min-width: 740px) and (max-width: 1023px) {
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
   .tablet {
     display: block;
   }
 }
 
 /* Mobile : width >= 1024px */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64em) {
   .pc {
     display: block;
   }
