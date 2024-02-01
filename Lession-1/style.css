@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  height: 100vh;
+  background: yellow;
+}
+
+.mobile,
+.tablet,
+.pc {
+  margin: auto;
+  font-size: 100px;
+  color: white;
+  display: none;
+}
+
+/* Mobile : width < 740px */
+@media screen and (max-width: 739px) {
+  .mobile {
+    display: block;
+  }
+}
+
+/* Tablet : width >= 740px and width < 1024px */
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+  .tablet {
+    display: block;
+  }
+}
+
+/* Mobile : width >= 1024px */
+@media screen and (min-width: 1024px) {
+  .pc {
+    display: block;
+  }
+}
